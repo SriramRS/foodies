@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+
+   <!-- Website Title & Description for Search Engine purposes -->
+   <title>Kitchen secrets</title>
+   <meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+
+   <!-- Mobile viewport optimized -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+   <!-- Bootstrap CSS -->
+   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="includes/css/styles.css">
+
+   <!-- Include Modernizr in the head, before any other Javascript -->
+   <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+ </head>
+ <body>
+   <div class="container">
+     <div class="navbar navbar-fixed-top" style="height:113px;">
+       <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <div class="nav-collapse collapse navbar-responsive-collapse">
+         <ul class="nav navbar-nav">
+           <li class="active">
+             <a href="#">Home</a>
+           </li>
+           <li class="active">
+             <a href="recipies.html">Recipe Box</a>
+           </li>
+           <li class="active">
+             <a href="#">Learn to cook</a>
+           </li>
+         </ul>
+         <form class="navbar-form pull-right">
+           <input type="text" class="form-control" placeholder="Search recipies..." id="searchInput">
+           <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+         </form><!-- end navbar-form -->
+
+       </div><!-- end nav-collapse -->
+     </div>
+
+
+   <div class="carousel slide" id="myCarousel">
+
+     <!-- Indicators -->
+     <ol class="carousel-indicators">
+       <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+       <li data-slide-to="1" data-target="#myCarousel"></li>
+       <li data-slide-to="2" data-target="#myCarousel"></li>
+     </ol>
+
+     <!-- Wrapper for slides -->
+     <div class="carousel-inner">
+       <div class="item active" id="slide1">
+         <div class="carousel-caption">
+           <h4>Dishes</h4>
+           <p>Learn how to build your first responsive website with the brand new Twitter Bootstrap 3!</p>
+         </div><!-- end carousel-caption-->
+       </div><!-- end item -->
+
+       <div class="item" id="slide2">
+         <div class="carousel-caption">
+           <h4>Drinks</h4>
+           <p>PSD to HTML5 &amp; CSS3 is a popular Udemy course that has helped thousands of aspiring web designers launch their web design career.</p>
+         </div><!-- end carousel-caption-->
+       </div><!-- end item -->
+
+       <div class="item" id="slide3">
+         <div class="carousel-caption">
+           <h4>Cooking Tips</h4>
+           <p>Learn how to buy a perfect domain name and hosting package, and get your website live on the web with ease.</p>
+         </div><!-- end carousel-caption-->
+       </div><!-- end item -->
+     </div><!-- carousel-inner -->
+
+     <!-- Controls -->
+     <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+     <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+   </div><!-- end myCarousel -->
+
+   </div><!-- End Container -->
+
+   <footer>
+     <div class="container" id="main-footer">
+       <div class="row">
+         <div class="col-sm-4">
+         <h3>Get our NewsLetter </h3>
+         <h5>recipe ideas and cooking tips delivered straight to your inbox.</h5>
+         <form class="navbar-form" id="newsletter">
+           <input type="text" class="form-control" placeholder="MailID" id="searchInput">
+           <button type="submit" class="btn btn-default">Sign Up</button>
+         </form>
+       </div><!-- end col-sm-4 -->
+
+         <div class="col-sm-4">
+         <h3>About Us </h3>
+         <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+         </div>
+
+         <div class="col-sm-4">
+           <a href=""><h5>Privacy terms</h5></a>
+           <a href=""><h5>Terms of service</h5></a>
+           <h5>copyright&copy new york times cooking</h5>
+         </div>
+       </div>
+       <div>
+
+     </div><!-- end container -->
+   </footer>
+     <!-- All Javascript at the bottom of the page for faster page loading -->
+
+     <!-- First try for the online version of jQuery-->
+     <script src="http://code.jquery.com/jquery.js"></script>
+
+     <!-- If no online access, fallback to our hardcoded version of jQuery -->
+     <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+     <!-- Bootstrap JS -->
+     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+     <!-- Custom JS -->
+     <script src="includes/js/script.js"></script>
+
+ </body>
+ </html>
